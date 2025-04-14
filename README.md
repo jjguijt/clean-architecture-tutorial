@@ -11,6 +11,10 @@ flask --app clean_architecture/server/server run
 ```
 
 
+## Tutorial app
+There's a small application that connects to an API to read Order data. The application creates a small report on this, listing all orders with the name of the customer, products ordered and the total price.
+The team responsible for the application is changing the API from version 1 to version 2. Try to apply Hexagonal Architecture when migrating from version 1 to version 2!
+
 
 ## Version 1 of the API
 
