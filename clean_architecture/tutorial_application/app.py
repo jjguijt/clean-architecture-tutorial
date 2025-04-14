@@ -64,12 +64,3 @@ if __name__ == "__main__":
 
     for line in report:
         print(line)
-
-
-# Todo put some weird logic like a retry in there
-
-# Benefits of Ports & Adapters:
-# We don't have API handling logic together with business logic
-# We can test in isolation
-# We can easily swap it out with something else. All info is in one place
-# We don't use things from the API in our code, but design it in our own domain language (if we design the interface first)
